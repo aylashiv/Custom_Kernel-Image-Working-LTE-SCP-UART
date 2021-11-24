@@ -1,0 +1,15 @@
+1)make the directory in /etc using mkdir -p /etc/ppp/peers
+2)Copy the files lte, lte-chat-connect,airtel and lte-chat-disconnect to the above folder
+3)Turn on the LTE modem usin the commands 
+		echo 45 > export
+		cd /sys/class/gpio/gpio45
+		echo "high" > direction
+		echo "low" > direction
+4)Now you can see some Logs about GSM on the Terminal
+5)Type ifconfig -a
+6)you can see wwan0 on the interfaces
+7)Enter ifconfig wwan0 up
+8)enter cd
+9)enter pppd call lte &
+10)Test the internet using ping google.com
+11)it should show some packets being transmitted
