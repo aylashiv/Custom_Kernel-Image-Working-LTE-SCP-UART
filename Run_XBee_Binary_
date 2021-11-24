@@ -1,0 +1,8 @@
+1)Prerequisuites is Crosscompile the Xbee ansic library for BBB using the doc crosscompilation_BBB
+2)copy the Transparent client to the BBB using SCP or direct copy
+3)Execute it by ./Transparent client /dev/ttyS1
+4)Before Step 3 we ahve to ensure the Baud rate fixed is stty -F /dev/ttyS1 115200 raw -echo
+5)If everything is ok, the Pan id and version is displayed else cross cheeck the connections and POwercycle the device
+6)ttyS1 is pins24 and pins26
+7)ttyS2 is pins 22 and pins21
+8) To ensure succesfull UART bring up check with dmesg | grep tty and also follow the Doc XBEE_UART_Steps

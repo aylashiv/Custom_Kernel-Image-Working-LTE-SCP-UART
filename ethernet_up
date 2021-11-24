@@ -1,0 +1,5 @@
+
+1)Enter linux terminal ctl+Alt+T
+2)Enter ifconfig
+3)Now you can see the interfaces like lo ip and eth0 coming u
+4)if eth0 is not found, enable it by ifconfig eth0 up

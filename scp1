@@ -1,0 +1,12 @@
+1)Give a Static IP address for eth0. 
+2)say for example 172.168.10.0.
+3)It can be given by ifconfig eth0 172.168.10.0,Test it by giving ifconfig command.
+4)In Linux x86 System if you enter ifconfig you could be able to see enp0s25, that is the interface for ethernet
+5)The same step 3 need to follow in Linux x86 system, by giving ifcnofig enp0s25 172.168.10.5
+6)after giving this command ensure it by running ifconfig ccomand and you can see the address as mentioned in the above step.
+7)Connect the BBB to x86 Linux System using a Ethernet RJ45 Cable.
+8)Ensure the connnectivity between the Two devices using ping commmand, ping 172.168.10.0 from Linux system and vice-versa.
+9)If ping is successfull, proceed to further steps else repeat the same steps from above 1-8.
+10)Enter SCP file_to_copy remote@172.168.10.0:/destination folder(Ex tmp)
+11)Follow this Link for SCP https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/
+

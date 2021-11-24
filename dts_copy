@@ -1,0 +1,4 @@
+1)Copy the am335x-boneblack.dts file to /home/aylashiv/Downloads/Sharepoint_Files_Buildroot/Rakesh_Images23Nov/buildroot/buildroot-2021.02/output/build/linux-custom/arch/arm/boot/dts 
+2)Here we have to do one step execute the below command 
+rm output/build/linux-custom/.stamp_built
+3)Again compile the buildroot by giving the command make

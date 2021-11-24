@@ -1,0 +1,13 @@
+1)Open the linux terminal using Ctl+Alt+T
+2)Download the Xbee library using command git clone https://github.com/digidotcom/xbee_ansic_library
+3)After download go to xbee_ansic_library/samples/posix and give make command
+4)This command will Generate binaries for x86 platform native compilation
+A cross compiler needed to download either from buildroot which is being compiled for BBB black
+5)For crosscompilation you can give make CC=/home/aylashiv/Downloads/buildroot/output/host/bin/arm-linux-cc
+A CrossCompiler http://laptrinhmoingay.com/2020/01/20/native-compiling-and-cross-compiling-beaglebone-black-application2-cross-compiling/
+can be downloaded and invoke the toolchain using this command /home/aylashiv/Beagle_LightSensor/BeagleBone-Black/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+
+make CC=/home/aylashiv/Beagle_LightSensor/BeagleBone-Black/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+
+Cross check the Objects generated for Beaglebone using file command invoke it by file filename
+

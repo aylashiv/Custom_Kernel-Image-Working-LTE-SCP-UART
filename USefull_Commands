@@ -1,0 +1,6 @@
+Copy directory cp -r /source directory /destination directory
+remove contents of a file rm /source_file contents
+remove direcctory rm -r /Folder to remove
+untar a tar file tar -xvf xyz.tar -C /destinatin folder
+ctl+r for already used commands
+
